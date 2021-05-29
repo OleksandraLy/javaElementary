@@ -1,14 +1,22 @@
 package javaElementary.homework;
 
-import java.util.Collections;
-import java.util.HashSet;
-import java.util.Set;
-import java.util.TreeSet;
+import java.util.*;
 
 public class Main {
+    static ArrayList<String> myArrayList = new ArrayList<>();
     static Set<ObjectClass> someHashSet = new HashSet<>();
     static Set<String> roaldDahlBooks = new TreeSet<>();
     public static void main(String[] args) {
+        String string1= "Autumn";
+        String string2= "Winter";
+        String string3 = "Summer";
+        String string4 = "Spring";
+        myArrayList.add(string1);
+        myArrayList.add(string2);
+        myArrayList.add(string3);
+        myArrayList.add(string4);
+        System.out.println(myArrayList);
+
         ObjectClass tree = new ObjectClass();
         ObjectClass house = new ObjectClass();
         ObjectClass lampPost = new ObjectClass();
